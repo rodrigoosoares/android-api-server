@@ -22,10 +22,17 @@ dependencies {
 
 	runtimeOnly("mysql:mysql-connector-java")
 
+	implementation("org.projectlombok:lombok:1.18.16")
+	annotationProcessor("org.projectlombok:lombok:1.18.16")
+
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
+	testImplementation("org.codehaus.groovy:groovy:3.0.5")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	testImplementation("org.spockframework:spock-core:2.0-M4-groovy-3.0")
+	testImplementation("br.com.six2six:fixture-factory:3.1.0")
 }
 
 tasks.withType<KotlinCompile> {
