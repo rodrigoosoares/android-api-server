@@ -1,1 +1,6 @@
-
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/backend-api
+    username: root
+    password: root
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
