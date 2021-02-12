@@ -1,11 +1,20 @@
-package com.personal.androidapi
+package com.personal.androidapi.user.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import com.personal.androidapi.R
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+    }
+
+    fun checkUsers(view: View) {
+        startActivity(Intent(this, UserActivity::class.java))
     }
 }
