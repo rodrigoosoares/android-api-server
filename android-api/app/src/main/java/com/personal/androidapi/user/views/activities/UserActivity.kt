@@ -1,11 +1,10 @@
-package com.personal.androidapi.user.activities
+package com.personal.androidapi.user.views.activities
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonArrayRequest
-import com.android.volley.toolbox.Volley
 import com.personal.androidapi.R
 import com.personal.androidapi.gateways.commons.HttpRequestQueue
 

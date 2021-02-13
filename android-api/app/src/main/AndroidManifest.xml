@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.AndroidApi">
-        <activity android:name=".user.activities.MainActivity">
+        <activity android:name="com.personal.androidapi.user.views.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".user.activities.UserActivity"/>
+        <activity android:name="com.personal.androidapi.user.views.activities.UserActivity"/>
     </application>
 
 </manifest>
